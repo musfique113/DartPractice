@@ -22,6 +22,6 @@ void main() {
   print("Full numbers: $output");
 
   //print out all numbers given in the list except +88
-  List<dynamic> subList = phoneNumber.sublist(1, 4);
+  List<dynamic> subList = phoneNumber.sublist(1, 5);
   print("Numbers given in the list except (+88): $subList");
 }
