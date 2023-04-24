@@ -4,7 +4,7 @@ void main() {
   print('My age is $myAge.');
 
   // Example of a constant
-  const pi = 3.14159;
+  const pi = 3.1416;
   print('The value of pi is $pi.');
 
   // Example of using a variable in a calculation
