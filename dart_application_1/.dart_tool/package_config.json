@@ -3,13 +3,13 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-59.0.0",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/_fe_analyzer_shared-58.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-5.11.1",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/analyzer-5.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -225,19 +225,19 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/test-1.24.2",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/test-1.24.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.5.2",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/test_core-0.5.2",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/test_core-0.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -249,7 +249,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-11.4.0",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-11.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -261,9 +261,9 @@
     },
     {
       "name": "web_socket_channel",
-      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-2.4.0",
+      "rootUri": "file:///C:/Users/musfiqueWHO/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-2.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.12"
     },
     {
       "name": "webkit_inspection_protocol",
@@ -278,13 +278,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "paractice",
+      "name": "dart_application_1",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-05-06T14:17:53.681881Z",
+  "generated": "2023-04-11T16:37:20.131221Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
