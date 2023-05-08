@@ -1,0 +1,1 @@
+/ Print both input and output lists
