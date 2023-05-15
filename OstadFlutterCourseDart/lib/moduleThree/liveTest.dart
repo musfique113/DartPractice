@@ -32,7 +32,7 @@ class Person {
 
   //method
   void sayHello() {
-    print("Hello, my name is $name.");
+    print("Hello, my name is $name from $address");
   }
 
   //method
