@@ -1,3 +1,4 @@
-void main() {
-  print("Hello duniya");
+void main(List<String> args) {
+  var str = "fdfaf sdfsd";
+  print(str);
 }
