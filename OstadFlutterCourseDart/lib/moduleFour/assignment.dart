@@ -33,22 +33,22 @@ class CurrentAccount extends Account {
 }
 
 void main() {
-  // Create an instance of the SavingsAccount class
+  
   SavingsAccount savingsAccount =  SavingsAccount();
   savingsAccount.accountNumber = 96837;
   savingsAccount.balance = 1001;
   savingsAccount.interestRate = 0.09;
 
-  // Deposit money into the savings account
+  
   savingsAccount.deposit(500);
 
-  // Withdraw money from the savings account
+  
   savingsAccount.withdraw(200);
 
-  // Print the balance of the savings account
+  
   print(savingsAccount.balance); 
 
-  // Create an instance of the CurrentAccount class
+  
   CurrentAccount currentAccount =  CurrentAccount();
   currentAccount.accountNumber = 789012;
   currentAccount.balance = 500;
@@ -61,5 +61,5 @@ void main() {
   currentAccount.withdraw(700);
 
   // current account
-  print(currentAccount.balance); // 
+  print(currentAccount.balance); 
 }
