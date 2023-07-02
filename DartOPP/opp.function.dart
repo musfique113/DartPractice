@@ -22,6 +22,7 @@ class Spacfication {
 
 class Human {
   //variables as propoerties
+ 
   late int legs;
   late int hands;
   late String color;
