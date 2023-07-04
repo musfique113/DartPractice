@@ -1,47 +1,53 @@
-main() {
-  //instance
-  Spacfication mobileX = Spacfication();
-  mobileX.model = "Samsung";
-  print(mobileX.model);
+void main() {
+  // Create instances of Spacfication
+  Spacfication mobileX = Spacfication("Samsung", 2021, 64);
+  print("Mobile X - Model: ${mobileX.model}");
+  print("Mobile X - Release Year: ${mobileX.releaseYear}");
+  print("Mobile X - Memory Size: ${mobileX.memorySize} GB");
 
-  Spacfication mobileY = Spacfication();
-  mobileY.model = "Nokia";
-  print(mobileY.model);
+  Spacfication mobileY = Spacfication("Nokia", 2022, 128);
+  print("Mobile Y - Model: ${mobileY.model}");
+  print("Mobile Y - Release Year: ${mobileY.releaseYear}");
+  print("Mobile Y - Memory Size: ${mobileY.memorySize} GB");
 
-  Spacfication mobileZ = Spacfication();
-  mobileZ.model = "Motorola";
-  print(mobileZ.model);
+  Spacfication mobileZ = Spacfication("Motorola", 2023, 256);
+  print("Mobile Z - Model: ${mobileZ.model}");
+  print("Mobile Z - Release Year: ${mobileZ.releaseYear}");
+  print("Mobile Z - Memory Size: ${mobileZ.memorySize} GB");
 
-  //instance of Human
-  Human xTy = Human();
-  xTy.eyes = 2;
-  xTy.hands = 2;
-  xTy.name = "Musfique";
-  print(xTy.hands);
+  // Create an instance of Human
+  Human xTy = Human("Musfique", 2, 2, "Brown", 2);
+  print("Human - Name: ${xTy.name}");
+  print("Human - Hands: ${xTy.hands}");
+  print("Human - Eyes: ${xTy.eyes}");
 
-  //using properties of Human() 
+  // Use methods of Human
   xTy.eating();
   xTy.moving();
 }
 
-//blueprint
+// Blueprint for mobile specifications
 class Spacfication {
-  var model;
-  var releseYear;
-  var memerySize;
+  late String model;
+  late int releaseYear;
+  late int memorySize;
+
+  // Constructor
+  Spacfication(this.model, this.releaseYear, this.memorySize);
 }
 
+// Blueprint for a human
 class Human {
-  //variables as propoerties
-
   late int legs;
   late int hands;
   late String color;
   late int eyes;
   late String name;
 
-  //behaviours as function but
-  //a functon in "calss" is called methods
+  // Constructor
+  Human(this.name, this.legs, this.hands, this.color, this.eyes);
+
+  // Methods
   void moving() {
     print("I am moving $name");
   }
