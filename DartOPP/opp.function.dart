@@ -38,6 +38,7 @@ class Spacfication {
 
 // Blueprint for a human
 class Human {
+  //poperties or attributes
   late int legs;
   late int hands;
   late String color;
