@@ -15,7 +15,7 @@ void main() {
   print("Mobile Z - Release Year: ${mobileZ.releaseYear}");
   print("Mobile Z - Memory Size: ${mobileZ.memorySize} GB");
 
-  // Create an instance of Human
+  // Create an instance of Human_Class
   Human xTy = Human("Musfique", 2, 2, "Brown", 2);
   print("Human - Name: ${xTy.name}");
   print("Human - Hands: ${xTy.hands}");
@@ -49,10 +49,13 @@ class Human {
   Human(this.name, this.legs, this.hands, this.color, this.eyes);
 
   // Methods
+  //function in a class is METHOD
   void moving() {
     print("I am moving $name");
   }
 
+  // Methods
+  //function in a class is METHOD
   void eating() {
     print("I am eating");
   }
