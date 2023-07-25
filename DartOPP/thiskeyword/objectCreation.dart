@@ -8,9 +8,16 @@ class Animal {
     //to access the calss variable, use this key word
     print(this.directionOfMoving);
   }
+
+  late String name;
+
+  //constractor of Animal class
+  Animal(String name) {
+    this.name = name;
+  }
 }
 
 void main() {
-  Animal cat = Animal();
+  Animal cat = Animal("Biral");
   cat.moving("Method Variable");
 }
