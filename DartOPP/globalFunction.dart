@@ -2,7 +2,7 @@ class Addition {
   //this is a global function / method
   static addTwoNumber(var b, var c) {
     var a = b + c;
-    print(c);
+    print(a);
   }
 }
 
