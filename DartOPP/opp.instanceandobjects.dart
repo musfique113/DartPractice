@@ -1,5 +1,5 @@
 main() {
-  //instance
+  //instance of Spacfication class 
   Spacfication mobileX = Spacfication();
   mobileX.model = "Samsung";
   print(mobileX.model);
@@ -15,6 +15,8 @@ main() {
 
 //blueprint 
 class Spacfication {
+
+  //object of Spacfication class
   var model;
   var releseYear;
   var memerySize;

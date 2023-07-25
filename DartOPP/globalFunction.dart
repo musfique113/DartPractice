@@ -7,5 +7,6 @@ class Addition {
 }
 
 void main() {
+  //accessing the function from Addition Class without creation instance
   Addition.addTwoNumber(3, 70);
 }
