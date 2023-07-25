@@ -16,7 +16,7 @@ void main() {
   print("Mobile Z - Memory Size: ${mobileZ.memorySize} GB");
 
   // Create an instance of Human_Class
-  Human xTy = Human("Musfique", 2, 2, "Brown", 2);
+  Human xTy = Human("Musfique", 2, 2, "B rown", 2);
   print("Human - Name: ${xTy.name}");
   print("Human - Hands: ${xTy.hands}");
   print("Human - Eyes: ${xTy.eyes}");
@@ -32,7 +32,7 @@ class Spacfication {
   late int releaseYear;
   late int memorySize;
 
-  // Constructor
+  // Constructor  
   Spacfication(this.model, this.releaseYear, this.memorySize);
 }
 
