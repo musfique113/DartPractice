@@ -10,14 +10,19 @@ class Animal {
   }
 
   late String name;
+  String colour;
 
   //constractor of Animal class
-  Animal(String name) {
-    this.name = name;
-  }
+  // Animal(String name) {
+  //   this.name = name;
+  // }
+
+  //short cut form
+  Animal(this.name, this.colour);
 }
 
 void main() {
-  Animal cat = Animal("Biral");
+  Animal cat = Animal("Biral", "Black");
   cat.moving("Method Variable");
+  print(cat.colour);
 }
