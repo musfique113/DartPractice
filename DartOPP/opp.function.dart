@@ -32,8 +32,9 @@ class Spacfication {
   late int releaseYear;
   late int memorySize;
 
-  // Constructor  
+  // Constructor
   Spacfication(this.model, this.releaseYear, this.memorySize);
+
 }
 
 // Blueprint for a human
@@ -44,6 +45,9 @@ class Human {
   late String color;
   late int eyes;
   late String name;
+
+  //defining global variable
+  static var hairColour = "black";
 
   // Constructor
   Human(this.name, this.legs, this.hands, this.color, this.eyes);
