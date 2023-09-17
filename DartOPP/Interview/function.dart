@@ -1,10 +1,9 @@
 void main() {
- var x=  add(10, 11);
-  print(x);
+  add(10, 11);
 }
 
-int add(int a, int b) {
+void add(int a, int b) {
   int c;
   c = a + b;
-  return c;
+  print(c);
 }
